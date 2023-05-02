@@ -71,7 +71,7 @@ class ViewController: UIViewController {
             stack.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             stack.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
-        label.setAcessibilityValueWithForeignSpeech(value: "Avenue e grande merda no core")
+        label.setAcessibilityValueWithForeignSpeech(value: "Bank of america e grande merda no core")
     }
     
     

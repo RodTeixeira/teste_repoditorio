@@ -11,7 +11,7 @@ import UIKit
 extension UIView {
     func setAcessibilityValueWithForeignSpeech(value: String?) {
         if let accessibilityValue = value {
-            let foreignWords = [SpeechLanguage(values: ["Avenue", "core"], accSpeechLanguage: "en-US")]
+            let foreignWords = [SpeechLanguage(values: ["Bank of america", "core"], accSpeechLanguage: "en-US")]
             let helper = SpeechForeignWordAccessibility(accValueLowercase: accessibilityValue, foreignWords: foreignWords)
             setValue(helper.mutableStringSpeechingForeignWord(), forKey: "accessibilityLabel")
         }
